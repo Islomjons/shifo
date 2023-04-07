@@ -1,0 +1,255 @@
+.cards {
+    background: #d7f1f657;
+    padding: 107px 0px 132px 0px;
+    margin-bottom: 74px;
+}
+
+.container {
+    max-width: 1286px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cards__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 84px;
+}
+
+.cards__heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #333333;
+    padding-bottom: 20px;
+}
+
+.cards__text {
+    width: 632px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards__list {
+    display: flex;
+    justify-content: center;
+    gap: 87px;
+}
+
+.cards__item {
+    max-width: 308px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 59px 50px 55px;
+    transition: 0.3s ease;
+}
+
+.cards__item:hover {
+    transform: scale(1.06);
+}
+
+.cards__item::before {
+    content: "";
+    display: inline-block;
+    width: 124px;
+    height: 111px;
+    background-image: url(../../assets/images/clock.svg);
+    background-repeat: no-repeat;
+    transform: translateY(-50%);
+}
+.cards__item:nth-child(2)::before {
+    content: "";
+    display: inline-block;
+    width: 111px;
+    height: 111px;
+    background-image: url(../../assets/images/heart.svg);
+    background-repeat: no-repeat;
+    transform: translateY(-50%);
+}
+
+.cards__item:nth-child(3)::before {
+    content: "";
+    display: inline-block;
+    width: 111px;
+    height: 111px;
+    background-image: url(../../assets/images/doctor.svg);
+    background-repeat: no-repeat;
+    transform: translateY(-50%);
+}
+
+.cards__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 156%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+    padding-bottom: 15px;
+}
+
+.cards__description {
+    width: 194px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #999999;
+}
+
+@media only screen and (max-width: 345px){
+    .cards {
+        background: #d7f1f657;
+        padding: 33px 0px 33px 0px;
+    }
+    
+    .container {
+        max-width: 1286px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .cards__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    
+    .cards__heading {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #333333;
+        padding-bottom: 20px;
+    }
+    
+    .cards__text {
+        width: 332px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 31px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #333333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cards__list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 87px;
+    }
+    
+    .cards__item {
+        max-width: 308px;
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 59px 50px 55px;
+        transition: 0.3s ease;
+    }
+    
+    .cards__item:hover {
+        transform: scale(1.06);
+    }
+    
+    .cards__item::before {
+        content: "";
+        display: inline-block;
+        width: 124px;
+        height: 111px;
+        background-image: url(../../assets/images/clock.svg);
+        background-repeat: no-repeat;
+        transform: translateY(-50%);
+    }
+    .cards__item:nth-child(2)::before {
+        content: "";
+        display: inline-block;
+        width: 111px;
+        height: 111px;
+        background-image: url(../../assets/images/heart.svg);
+        background-repeat: no-repeat;
+        transform: translateY(-50%);
+    }
+    
+    .cards__item:nth-child(3)::before {
+        content: "";
+        display: inline-block;
+        width: 111px;
+        height: 111px;
+        background-image: url(../../assets/images/doctor.svg);
+        background-repeat: no-repeat;
+        transform: translateY(-50%);
+    }
+    
+    .cards__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 156%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #333333;
+        padding-bottom: 15px;
+    }
+    
+    .cards__description {
+        width: 194px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #999999;
+    }
+}

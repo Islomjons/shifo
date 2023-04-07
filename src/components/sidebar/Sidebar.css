@@ -1,0 +1,45 @@
+.sidebar{
+  width: 201px;
+  height: 676px;
+  overflow-y: auto;
+  background-color: var(--primary-white-color);
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 10;
+  transition: 0.10s ease;
+  top: 20%;
+}
+
+.sidebaractive{
+  top: 0;
+  left: 0;
+  transition: 0.10s ease;
+}
+
+.sidebar__icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.sidebar__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__link {
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
