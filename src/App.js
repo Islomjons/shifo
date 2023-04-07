@@ -9,6 +9,8 @@ import Cards from './components/cards/Cards';
 import AboutUs from './components/aboutUs/AboutUs';
 import OurDoctor from './components/ourDoctor/OurDoctor';
 import Products from './components/products/Products';
+import AboutHealth from './components/aboutHealth/AboutHealth';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <AboutUs />
         <OurDoctor />
         <Products />
+        <AboutHealth />
+        <Footer />
         {
             isCartActive && <Overlay type="sidebar" state={isCartActive} callback={setIsCartActive}/>
         }

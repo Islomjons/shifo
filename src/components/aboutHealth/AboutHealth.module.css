@@ -1,0 +1,114 @@
+.aboutHealth {
+    margin-bottom: 90px;
+}
+
+.container {
+    max-width: 1286px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aboutHealth__container {
+    background: #333333;
+    padding: 81px 79px 46px 72px;
+}
+
+.aboutHealth__heading {
+    max-width: 659px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.aboutHealth__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutHealth__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.aboutHealth__btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #0099FF;
+    border-radius: 5px;
+    border: none;
+    padding: 13.5px 7px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.aboutHealth__btn:hover {
+    background-color: #FFFFFF;
+    color: #0099FF;
+}
+
+@media only screen and (max-width: 390px) {
+    .aboutHealth {
+        margin-bottom: 47px;
+    }
+    
+    .aboutHealth__container {
+        background: #333333;
+        padding: 24px 70px 22px 20px;
+    }
+    
+    .aboutHealth__heading {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 22px;
+    }
+    
+    .aboutHealth__wrapper {
+        display: flex;
+        flex-direction: column;
+       justify-content: flex-start;
+    }
+    
+    .aboutHealth__text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-bottom: 38px;
+    }
+    
+    .aboutHealth__btn {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 9px 15px;
+    }
+    
+    .aboutHealth__btn:hover {
+        background-color: #FFFFFF;
+        color: #0099FF;
+    }
+}
