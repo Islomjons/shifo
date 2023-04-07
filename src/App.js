@@ -7,6 +7,7 @@ import { Overlay } from './utils';
 import Hero from './components/hero/Hero';
 import Cards from './components/cards/Cards';
 import AboutUs from './components/aboutUs/AboutUs';
+import OurDoctor from './components/ourDoctor/OurDoctor';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Hero />
         <Cards />
         <AboutUs />
+        <OurDoctor />
         {
             isCartActive && <Overlay type="sidebar" state={isCartActive} callback={setIsCartActive}/>
         }

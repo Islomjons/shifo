@@ -1,0 +1,236 @@
+.ourDoctor {
+    background: #d7f1f657;
+    padding: 100px 0px 84px 0px;
+}
+
+.container {
+    max-width: 1286px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ourDoctor__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.ourDoctor__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.ourDoctor__text {
+    width: 632px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.ourDoctor__list {
+    display: flex;
+    gap: 16px;
+}
+
+.ourDoctor__item {
+    max-width: 298px;
+    width: 100%;
+}
+
+.ourDoctor__item::before {
+    content: "";
+    display: inline-block;
+    width: 298px;
+    height: 377px;
+    background-image: url(../../assets/images/outDoctorImg1.png);
+    background-repeat: no-repeat;
+}
+
+.ourDoctor__item:nth-child(2)::before {
+    content: "";
+    display: inline-block;
+    width: 298px;
+    height: 377px;
+    background-image: url(../../assets/images/ourDoctorImg2.png);
+    background-repeat: no-repeat;
+}
+
+.ourDoctor__item:nth-child(3)::before {
+    content: "";
+    display: inline-block;
+    width: 298px;
+    height: 377px;
+    background-image: url(../../assets/images/ourDoctorImg3.png);
+    background-repeat: no-repeat;
+}
+
+.ourDoctor__item:nth-child(4)::before {
+    content: "";
+    display: inline-block;
+    width: 298px;
+    height: 377px;
+    background-image: url(../../assets/images/ourDoctorImg4.png);
+    background-repeat: no-repeat;
+}
+
+.ourDoctor__wrapper {
+    margin: 0 auto;
+    max-width: 261px;
+    width: 100%;
+    background-color: #FFFFFF;;
+    border-radius: 5px;
+    padding: 15px 0px 14px 21px;
+    transform: translateY(-60%);
+}
+
+.ourDoctor__name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.ourDoctor__professi {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.ourDoctor__img__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 390px) {
+    .ourDoctor {
+        background: #d7f1f657;
+        padding: 1px 0px 49px 0px;
+    }
+    
+    .ourDoctor__container {
+        margin-bottom: 16px;
+    }
+    
+    .ourDoctor__title {
+        font-size: 16px;
+        line-height: 50px;
+        margin-bottom: 0px;
+    }
+    
+    .ourDoctor__text {
+        width: 349px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .ourDoctor__list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .ourDoctor__item {
+        max-width: 331px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .ourDoctor__item::before {
+        content: "";
+        display: inline-block;
+        width: 331px;
+        height: 258px;
+        background-image: url(../../assets/images/outDoctorImg1.png);
+        background-repeat: no-repeat;
+    }
+    
+    .ourDoctor__item:nth-child(2)::before {
+        content: "";
+        display: inline-block;
+        width: 331px;
+        height: 258px;
+        background-image: url(../../assets/images/ourDoctorImg2.png);
+        background-repeat: no-repeat;
+    }
+    
+    .ourDoctor__item:nth-child(3)::before {
+        content: "";
+        display: inline-block;
+        width: 331px;
+        height: 258px;
+        background-image: url(../../assets/images/ourDoctorImg3.png);
+        background-repeat: no-repeat;
+    }
+    
+    .ourDoctor__item:nth-child(4)::before {
+        content: "";
+        display: inline-block;
+        width: 331px;
+        height: 258px;
+        background-image: url(../../assets/images/ourDoctorImg4.png);
+        background-repeat: no-repeat;
+    }
+    
+    .ourDoctor__wrapper {
+        margin: 0 auto;
+        max-width: 294px;
+        width: 100%;
+        background-color: #FFFFFF;;
+        border-radius: 5px;
+        padding: 0px 6px 5px 19px;
+        transform: translateY(-50%);
+    }
+    
+    .ourDoctor__name {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: #333333;
+    }
+    
+    .ourDoctor__professi {
+        font-size: 14px;
+        line-height: 156%;
+    }
+    
+    .ourDoctor__img__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        padding-bottom: 0px;
+    }
+}
