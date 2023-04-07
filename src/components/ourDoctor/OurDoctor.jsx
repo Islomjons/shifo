@@ -4,6 +4,10 @@ import facebook from "../../assets/images/facebook.svg"
 import para from "../../assets/images/para.svg"
 import bassketball from "../../assets/images/bassketball.svg"
 import instagram from "../../assets/images/instagram.svg"
+import ourDocturImg from "../../assets/images/outDoctorImg1.png"
+import ourDocturImg1 from "../../assets/images/ourDoctorImg2.png"
+import ourDocturImg2 from "../../assets/images/ourDoctorImg3.png"
+import ourDocturImg3 from "../../assets/images/ourDoctorImg4.png"
 
 const OurDoctor = () => {
   return (
@@ -15,6 +19,7 @@ const OurDoctor = () => {
             </div>
             <ul className={c.ourDoctor__list}>
                 <li className={c.ourDoctor__item}>
+                    <img className={c.ourDoctor__imgss} src={ourDocturImg} alt="" />
                     <div className={c.ourDoctor__wrapper}>
                         <div className={c.ourDoctor__img__wrapper}>
                             <img className={c.ourDoctor__icons} src={facebook} alt="" />
@@ -27,6 +32,7 @@ const OurDoctor = () => {
                     </div>
                 </li>
                 <li className={c.ourDoctor__item}>
+                    <img className={c.ourDoctor__imgss} src={ourDocturImg1} alt="" />
                     <div className={c.ourDoctor__wrapper}>
                         <div className={c.ourDoctor__img__wrapper}>
                             <img className={c.ourDoctor__icons} src={facebook} alt="" />
@@ -39,6 +45,7 @@ const OurDoctor = () => {
                     </div>
                 </li>
                 <li className={c.ourDoctor__item}>
+                    <img className={c.ourDoctor__imgss} src={ourDocturImg2} alt="" />
                     <div className={c.ourDoctor__wrapper}>
                         <div className={c.ourDoctor__img__wrapper}>
                             <img className={c.ourDoctor__icons} src={facebook} alt="" />
@@ -51,6 +58,7 @@ const OurDoctor = () => {
                     </div>
                 </li>
                 <li className={c.ourDoctor__item}>
+                    <img className={c.ourDoctor__imgss} src={ourDocturImg3} alt="" />
                     <div className={c.ourDoctor__wrapper}>
                         <div className={c.ourDoctor__img__wrapper}>
                             <img className={c.ourDoctor__icons} src={facebook} alt="" />
