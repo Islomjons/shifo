@@ -8,6 +8,7 @@ import Hero from './components/hero/Hero';
 import Cards from './components/cards/Cards';
 import AboutUs from './components/aboutUs/AboutUs';
 import OurDoctor from './components/ourDoctor/OurDoctor';
+import Products from './components/products/Products';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Cards />
         <AboutUs />
         <OurDoctor />
+        <Products />
         {
             isCartActive && <Overlay type="sidebar" state={isCartActive} callback={setIsCartActive}/>
         }

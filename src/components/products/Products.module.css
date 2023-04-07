@@ -1,0 +1,156 @@
+.products {
+    
+}
+
+.container {
+    max-width: 1286px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.products__container {
+    
+}
+
+.products__heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.products__text {
+    max-width: 632px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.products__list {
+    display: flex;
+    gap: 16px;
+}
+
+.products__item {
+    max-width: 622px;
+    width: 100%;
+    background: #F1FAFC;
+    border-radius: 5px;
+    box-shadow: 20px 20px 50px #0000001a;
+}
+
+.products__img {
+    width: 622px;
+    height: 326px;
+    object-fit: cover;
+}
+
+.products__wrapper {
+    padding: 24px 0px 29px 22px;
+}
+
+.products__name {
+    max-width: 155px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.products__desc {
+    max-width: 464px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: #333333;
+}
+
+.products__stars__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 390px) {
+    .products {
+    
+    }
+    
+    .products__heading {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .products__text {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 61px;
+    }
+    
+    .products__list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .products__item {
+        max-width: 330px;
+        width: 100%;
+        background: #F1FAFC;
+        border-radius: 5px;
+        box-shadow: 20px 20px 50px #0000001a;
+    }
+    
+    .products__img {
+        width: 330px;
+        height: 220px;
+        object-fit: cover;
+    }
+    
+    .products__wrapper {
+        padding: 0px 0px 17px 11px;
+    }
+    
+    .products__name {
+        max-width: 500px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 3px;
+    }
+    
+    .products__desc {
+        font-size: 14px;
+        line-height: 100%;
+        margin-bottom: 26px;
+    }
+    
+    .products__stars__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
