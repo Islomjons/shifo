@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Sidebar.css"
-// import { FiX } from "react-icons/fi"
+import { FiX } from "react-icons/fi"
 import { Link } from 'react-router-dom'
 
 const Sidebar = ({isCartActive, setIsCartActive}) => {
   return (
     <div className={isCartActive === true ? "sidebar sidebaractive" : "sidebar"}>
-        {/* <FiX onClick={() => {setIsCartActive(false)}} className="sidebar__icon"/> */}
+        <FiX onClick={() => {setIsCartActive(false)}} className="sidebar__icon"/>
         <div>
         <ul className="sidebar__list">
             <li className='sidebar__item'>
