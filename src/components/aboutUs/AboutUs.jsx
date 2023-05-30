@@ -17,6 +17,11 @@ const AboutUs = () => {
                 </div>
             </div>
         </div>
+
+        <div className='hero'>
+            <h2>Islomjon Mukhammadaliev</h2>
+            <h2>I am 20 years old</h2>
+        </div>
     </div>
   )
 }
